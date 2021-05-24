@@ -2,20 +2,6 @@ import React, { Component } from 'react';
 import { Layout, Header, Navigation, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Roadster from '../image/Roadster.jpg'
-
-import { AuthProvider } from "../contexts/AuthContext";
-import Signup from "./Signup";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Dashboard from './Dashboard'
-import Login from './Login'
-import PrivateRoute from "./PrivateRoute"
-import ForgotPassword from "./ForgotPassword"
-import UpdateProfile from "./UpdateProfile"
-import App from './App'
-
-
-
-
 import "bootstrap/dist/css/bootstrap.min.css"
 
 class LandingPage extends Component {
@@ -26,10 +12,7 @@ class LandingPage extends Component {
   
   render() {
     return (
-        
-            
-
-            
+                    
       <div  >
           
         <Layout>

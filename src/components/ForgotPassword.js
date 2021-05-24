@@ -1,4 +1,3 @@
-//import React from 'react'
 import React, { useRef, useState } from "react"
 import {Form, Button, Card, Alert} from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
@@ -21,7 +20,7 @@ export default function ForgotPassword() {
             setLoading(true)
             await resetPassword(emailRef.current.value)
             setMessage("Check your inbox for further instructions")           
-            //history.push("/")
+         
           } catch {
             setError("Failed to reset password")
           }  
