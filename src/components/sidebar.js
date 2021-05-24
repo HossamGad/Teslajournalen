@@ -1,10 +1,8 @@
-
 import React, { useState } from "react"
 import { slide as Menu } from "react-burger-menu";
-import { Card, Button, Alert, Nav, NavDropdown} from "react-bootstrap"
-import {handleLogout} from './Home'
+import { Button } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
-import { Link, useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom"
 
 
 export default props => {
@@ -34,11 +32,7 @@ export default props => {
         Update profile
       </a>
 
-      <a className="menu-item" href="/services">
-        Services
-      </a>
-
-      <a className="menu-item" href="/contact">
+      <a className="menu-item" href="/exporteraresa">
         Exportera resor
       </a>
       <Button  onClick={handleLogout} >
