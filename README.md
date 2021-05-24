@@ -5,9 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 Packages you need to run the project:
 
-npm i firebase
-npm i bootstrap react-bootstrap
-npm i react-router-dom
+npm i firebase.
+
+npm i bootstrap react-bootstrap.
+
+npm i react-router-dom.
 
 In the project directory, you can run:
 
